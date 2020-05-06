@@ -1,0 +1,32 @@
+$blue: #82b5f0;
+$dark: #1E1E1D;
+
+$h1-font-size:  3.5rem;
+
+#title-projects{
+    padding-top: 80px;
+}
+.text-about-me{
+    line-height: 1.8;
+}
+
+.fas, .fab {
+    display: inline-block;
+    border-radius: 80px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;   
+    color: white;
+}
+
+.list-group-item{
+    border: 0!important;
+}
+
+.list-group-item{
+    flex: auto;
+    background-color: transparent!important;   
+  
+}
+
+
+
