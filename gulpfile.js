@@ -13,12 +13,12 @@ function style() {
 function watch() {
     browserSync.init({
         server: {
-           baseDir: "./src",
+           baseDir: "./",
            index: "/index.html"
         }
     });
-    gulp.watch('src/scss/**/*.scss', style)
-    gulp.watch('./src/*.html').on('change',browserSync.reload);
+    gulp.watch('src/scss/**/*.scss', style);
+    gulp.watch('./*.html').on('change',browserSync.reload);
     gulp.watch('./js/**/*.js').on('change', browserSync.reload);
 }
 
